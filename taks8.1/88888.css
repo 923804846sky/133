@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1600px) and (min-width: 1000px){
+    .c1{
+        width: 40%;
+    }
+    .c4{
+        width: 40%;
+        border-left:0px dashed #999999;
+    }
+    .d000{
+        margin: 2% 10% 2% 10%;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+    
+    .d000{
+        margin: 2% 10% 2% 10%;
+    }
+    .e{
+        width: 340px;
+        margin:5%
+    }
+}
+@media only screen and (max-width: 1300px){
+.f1{
+    width: 400px;
+    margin: 1%;
+}
+
+}
+@media only screen and (max-width: 1000px){
+    .c1{
+        width: 100%;
+    }
+    .c4{
+        width: 100%;
+        border-left:0px dashed #999999;
+    }
+    .d000{
+        margin: 2% 20% 2% 20%;
+    }
+    .e{
+        width: 60%;
+    }
+    .g1{
+        width: 100%;
+    }
+}
