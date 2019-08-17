@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+
+<script languang="javascript">   
+
+function JustNumberText(){ 
+    if ( !(((window.event.keyCode >= 48) && (window.event.keyCode <= 57)) || window.event.keyCode == 10 || window.event.keyCode == 13)) { 
+        window.event.keyCode = 0 ; 
+
+        alert("请输入数字!"); return false;
+    }
+}
+
+function checkCode(){
+
+var value = event.keyCode;
+
+if (!((value > 47)&&(value < 58)) ){
+
+alert("请输入数字!"); return false;
+
+}
+
+}
+</script>
+
+<script language=javascript> 
+function vis() 
+{ 
+if(isNaN(form1.t1.value)) 
+{ 
+alert('电话号码应是数字格式') 
+form1.t1.focus() 
+return false 
+} 
+if(form1.t1.value.length > 11) 
+{ 
+alert('电话号码应是11位的') 
+form1.t1.focus() 
+return false 
+} 
+} 
+</script> 
+
+</HEAD>
+
+<BODY>
+<form action="?" method="post" name="form1">
+
+
+
+<input name="txt1" onChange="if(/\D/.test(this.value)){alert('电话号码请输入数字');this.value='';this.focus()}">
+
+<input onKeyUp="if(isNaN(value))execCommand('undo')" onChange="if(/\D/.test(this.value)){alert('只能输入数字');this.value='';}">
+
+<input onKeyDown="if(isNaN(value))execCommand('undo')" onChange="if(/\D/.test(this.value)){alert('只能输入数字');this.value='';}">
+
+<input   onkeyup="this.value=this.value.replace(/\D/g,'')"   onafterpaste="this.value=this.value.replace(/\D/g,'')">
+
+
+<input onkeypress="if(event.keyCode<48 || event.keyCode>57){alert('电话号码只能输入数字');event.returnValue = false;}"  onkeyup="this.value=this.value.replace(/[^\d*]/,'')">
+
+<input onkeypress="if (event.keyCode < 48 || event.keyCode > 57){alert('电话号码只能输入数字');event.returnValue = false;}" onpaste="return false;" onkeyup="this.value=this.value.replace(/[^\d*]/,'')">
+
+
+<input type="submit" name="submit" value="提交">
+
+
+</form>
+</BODY>
+</HTML>
