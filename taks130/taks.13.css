@@ -1,0 +1,173 @@
+body {
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  min-width: 49%;
+  display: none;
+  overflow: hidden;
+  color: #29bde0;
+  background-color: #ffffff;
+}
+
+.nav-l {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.nav-icon {
+  margin-right: 20px;
+}
+
+.nav-right {
+  margin-right: 15px;
+}
+
+.Button {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin: 12px 0 0 10px;
+  background: url(shouye1.png) no-repeat;
+  background-size: 24px;
+  -webkit-appearance: none;
+  z-index: 1;
+  outline: none;
+}
+
+input:checked {
+  margin-left: 50vw;
+}
+
+input:checked + .nav {
+  display: block;
+}
+
+.wrap {
+  min-width: 100%;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #29bde0;
+}
+
+.header-a {
+  margin-top: 18px;
+  margin-left: 8px;
+}
+
+.before {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  height: 60px;
+  width: 80%;
+  color: #9a9a9a;
+  background-color: #ffffff;
+}
+
+.before-a {
+  padding-top: 20px;
+  padding-right: 12px;
+}
+
+.link-a {
+  align-items: center;
+}
+
+.link {
+  float: right;
+  margin-left: 30px;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #fbb435;
+  margin-top: -40px;
+  margin-right: 10px;
+  width: 0;
+  transform: rotate(45deg);
+}
+
+.game {
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 385px;
+  width: 80%;
+}
+
+.game-a {
+  text-align: center;
+  line-height: 35px;
+  color: #fbb435;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fbb435;
+  height: 35px;
+}
+
+.version {
+  text-align: center;
+  line-height: 60px;
+  background-color: #29bde0;
+  margin: 0 auto;
+  height: 60px;
+  width: 80%;
+  color: #ffffff;
+}
+
+.user {
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  height: 40px;
+  width: 80%;
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+.c0 {
+  float: right;
+  padding-top: 18px;
+  padding-right: 5px;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+}
+
+.page-a {
+  text-align: center;
+  margin: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.page-a:hover {
+  background-color: #5fc0cd;
+}
