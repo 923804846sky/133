@@ -21,7 +21,7 @@ body {
   width: 70%;
   margin: 0 auto;
   padding-top: 30px;
-  margin-top: 400px;
+  margin-top: 25vw;
 }
 
 .icon1 {
@@ -247,11 +247,12 @@ body {
   font-size: 13px;
   color: #999999;
   height: 21px;
+  width: 52px;
   border-bottom: 1px solid #fafafa;
   margin: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 1600px) and (min-width: 1000px) {
+@media only screen and (max-width: 1700px) and (min-width: 1000px) {
   .icon-a {
     width: 46%;
   }

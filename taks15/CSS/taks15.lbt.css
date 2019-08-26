@@ -1,7 +1,7 @@
 #frame {/*----------图片轮播相框容器----------*/
 	position: absolute;
 	width: 100%;
-	height: 400px;
+	height: 25vw;
 	overflow: hidden;/*--相框作用，只显示一个图片---*/
 	
   }
@@ -15,7 +15,7 @@
   #photos img {
 	float: left;
 	width:20%;
-	height:400px;
+	height:25vw;
   }
   #photos {/*---设置总的图片宽度--通过位移来达到轮播效果----*/
 	position: absolute;z-index:9px;
@@ -45,7 +45,7 @@
 
 	right:50%;
 
-	margin-top: 350px;
+	margin-top: 21vw;
 	border-radius:100%;
 	background:#b0b0b0;
 	width:25px;
@@ -87,7 +87,11 @@
 	.num:nth-child(4){position:absolute; left:55%; transform:translate(-55%); }
 	.num:nth-child(5){position:absolute; left:60%; transform:translate(-60%); }
   }
-
+  @media screen and (max-width:768px){
+	
+	  .num{
+		margin-top: 18vw;
+  }
   @media screen and (max-width:530px) {
 	.num:hover{background:#ffffff ;}
 	.num:hover,#photos:hover{animation-play-state:paused;}

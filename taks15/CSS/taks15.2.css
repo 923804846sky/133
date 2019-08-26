@@ -136,6 +136,7 @@ a {
   .main-a-l {
     margin-bottom: 10%;
     width: 800px;
+    margin-right: 0px;
   }
 }
 
@@ -157,11 +158,28 @@ a {
   .main-a-l {
     width: 280px;
     margin-bottom: 10%;
+    margin-right: 0;
+  }
+  .Introduction-l {
+    width: 100%;
+  }
+  .Introduction-a {
+    padding: 0 30px 50px 30px;
   }
   .Introduction {
     display: block;
+    padding: 10px;
   }
   .Introduction-r {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-a-l {
+    width: 230px;
+  }
+  .Introduction-a {
+    padding: 0 10px 70px 10px;
   }
 }

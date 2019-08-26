@@ -104,6 +104,16 @@ a {
 
 .personnel:hover .personnel-a {
   visibility: visible;
+  animation: ro 1s ease-out 1;
+}
+
+@keyframes ro {
+  0% {
+    bottom: 50px;
+  }
+  100% {
+    bottom: 0px;
+  }
 }
 
 .personnel-a {
