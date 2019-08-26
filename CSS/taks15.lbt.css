@@ -1,0 +1,113 @@
+#frame {/*----------图片轮播相框容器----------*/
+	position: absolute;
+	width: 100%;
+	height: 25vw;
+	overflow: hidden;/*--相框作用，只显示一个图片---*/
+	
+  }
+  #dis {/*--绝对定位方便li图片简介的自动分布定位---*/
+	position: absolute;
+	left: -50px;
+	top: -10px;
+	opacity: 0.5;
+  }
+  
+  #photos img {
+	float: left;
+	width:20%;
+	height:25vw;
+  }
+  #photos {/*---设置总的图片宽度--通过位移来达到轮播效果----*/
+	position: absolute;z-index:9px;
+	width: calc(100% * 5);/*---修改图片数量的话需要修改下面的动画参数*/
+  }
+  .play{
+	display: block !important;
+	animation: ma 10s ease-out infinite alternate;/**/
+  }
+  @keyframes ma {/*---每图片切换有两个阶段：位移切换和静置。中间的效果可以任意定制----*/
+	0%,20% {		margin-left: 0px;		}
+	25%,40% {		margin-left: -100%;	}
+	45%,60% {		margin-left: -200%;	}
+	65%,80% {		margin-left: -300%;	}
+	85%,100% {		margin-left: -400%;	}
+  }
+  .aaa{
+
+   display:flex; 
+  }
+  
+  .num{
+
+	z-index:10;
+	display:flex;
+	 justify-content:center;
+
+	right:50%;
+
+	margin-top: 21vw;
+	border-radius:100%;
+	/* background:#b0b0b0; */
+	border: 1px solid#b0b0b0;
+	width:15px;
+	height:15px;
+	line-height:15px;
+	cursor:pointer;
+	color:#fff;
+	text-align:center;
+	opacity:0.8;
+
+  }
+  .num:hover{background:#ffffff ;}
+  .num:hover,#photos:hover{animation-play-state:paused;}
+  .num:nth-child(1){position:absolute; left:44%; transform:translate(-44%); margin-right: 10px !important  }
+  .num:nth-child(2){position:absolute; left:47%; transform:translate(-47%); margin-right: 10px !important }
+  .num:nth-child(3){position:absolute; left:50%; transform:translate(-50%);   }
+  .num:nth-child(4){position:absolute; left:53%; transform:translate(-53%);margin-right: 10px!important }
+  .num:nth-child(5){position:absolute; left:56%; transform:translate(-56%);  margin-right: 10px }
+  #a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
+  #a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
+  #a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
+  #a4:hover ~ #photos{animation: ma4 .5s ease-out forwards;}
+  #a5:hover ~ #photos {animation: ma5 .5s ease-out forwards;}
+  @keyframes ma1 {0%{margin-left:-400%;}100%{margin-left:-0%;}	}
+  @keyframes ma2 {0%{margin-left:-0%;}100%{margin-left:-100%;}}
+  @keyframes ma3 {0%{margin-left:-100%;}100%{margin-left:-200%;}}
+  @keyframes ma4 {0%{margin-left:-200%;}100%{margin-left:-300%;}}
+  @keyframes ma5 {0%{margin-left:-300%;}100%{margin-left:-400%;}}
+
+
+
+
+  @media screen and (max-width:1000px) {
+	.num:hover{background:#ffffff ;}
+	.num:hover,#photos:hover{animation-play-state:paused;}
+	.num:nth-child(1){position:absolute; left:40%; transform:translate(-40%); }
+	.num:nth-child(2){position:absolute; left:45%; transform:translate(-45%);   }
+	.num:nth-child(3){position:absolute; left:50%; transform:translate(-50%); }
+	.num:nth-child(4){position:absolute; left:55%; transform:translate(-55%); }
+	.num:nth-child(5){position:absolute; left:60%; transform:translate(-60%); }
+  }
+  @media screen and (max-width:768px){
+	
+	  .num{
+		margin-top: 18vw;
+  }
+  @media screen and (max-width:530px) {
+	.num:hover{background:#ffffff ;}
+	.num:hover,#photos:hover{animation-play-state:paused;}
+	.num:nth-child(1){position:absolute; left:36%; transform:translate(-36%); }
+	.num:nth-child(2){position:absolute; left:43%; transform:translate(-43%);   }
+	.num:nth-child(3){position:absolute; left:50%; transform:translate(-50%); }
+	.num:nth-child(4){position:absolute; left:57%; transform:translate(-57%); }
+	.num:nth-child(5){position:absolute; left:64%; transform:translate(-64%); }
+  }
+  @media screen and (max-width:400px) {
+	.num:hover{background:#ffffff ;}
+	.num:hover,#photos:hover{animation-play-state:paused;}
+	.num:nth-child(1){position:absolute; left:30%; transform:translate(-30%); }
+	.num:nth-child(2){position:absolute; left:40%; transform:translate(-40%);   }
+	.num:nth-child(3){position:absolute; left:50%; transform:translate(-50%); }
+	.num:nth-child(4){position:absolute; left:60%; transform:translate(-60%); }
+	.num:nth-child(5){position:absolute; left:70%; transform:translate(-70%); }
+  }
