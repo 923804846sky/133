@@ -48,7 +48,7 @@
 	margin-top: 21vw;
 	border-radius:100%;
 	/* background:#b0b0b0; */
-	border: 1px solid#b0b0b0;
+	border: 2px solid#b0b0b0;
 	width:15px;
 	height:15px;
 	line-height:15px;
@@ -58,13 +58,25 @@
 	opacity:0.8;
 
   }
+  @media screen and (max-width:1000px){
+	.num{
+		margin-top: 18vw;
+	}
+  }
   .num:hover{background:#ffffff ;}
   .num:hover,#photos:hover{animation-play-state:paused;}
-  .num:nth-child(1){position:absolute; left:44%; transform:translate(-44%); margin-right: 10px !important  }
+  /* .num:nth-child(1){position:absolute; left:44%; transform:translate(-44%); margin-right: 10px !important  }
   .num:nth-child(2){position:absolute; left:47%; transform:translate(-47%); margin-right: 10px !important }
   .num:nth-child(3){position:absolute; left:50%; transform:translate(-50%);   }
   .num:nth-child(4){position:absolute; left:53%; transform:translate(-53%);margin-right: 10px!important }
   .num:nth-child(5){position:absolute; left:56%; transform:translate(-56%);  margin-right: 10px }
+ */
+
+  .num:nth-child(1){  margin-left: calc( 50% - 60px );   margin-right: 10px }
+  .num:nth-child(2){ margin-right: 10px}
+  .num:nth-child(3){  margin-right: 10px}
+  .num:nth-child(4){margin-right: 10px}
+  .num:nth-child(5){ margin-right: 10px}
   #a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
   #a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
   #a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
@@ -77,7 +89,7 @@
   @keyframes ma5 {0%{margin-left:-300%;}100%{margin-left:-400%;}}
 
 
-
+/* 
 
   @media screen and (max-width:1000px) {
 	.num:hover{background:#ffffff ;}
@@ -92,7 +104,7 @@
 	
 	  .num{
 		margin-top: 18vw;
-  }
+  }}
   @media screen and (max-width:530px) {
 	.num:hover{background:#ffffff ;}
 	.num:hover,#photos:hover{animation-play-state:paused;}
@@ -110,4 +122,4 @@
 	.num:nth-child(3){position:absolute; left:50%; transform:translate(-50%); }
 	.num:nth-child(4){position:absolute; left:60%; transform:translate(-60%); }
 	.num:nth-child(5){position:absolute; left:70%; transform:translate(-70%); }
-  }
+  } */
