@@ -45,12 +45,12 @@
 
 	right:50%;
 
-	margin-top: 21vw;
+	margin-top:calc( 25vw - 30px );
 	border-radius:100%;
 	/* background:#b0b0b0; */
 	border: 2px solid#b0b0b0;
-	width:15px;
-	height:15px;
+	width:10px;
+	height:10px;
 	line-height:15px;
 	cursor:pointer;
 	color:#fff;
@@ -58,11 +58,7 @@
 	opacity:0.8;
 
   }
-  @media screen and (max-width:1000px){
-	.num{
-		margin-top: 18vw;
-	}
-  }
+
   .num:hover{background:#ffffff ;}
   .num:hover,#photos:hover{animation-play-state:paused;}
   /* .num:nth-child(1){position:absolute; left:44%; transform:translate(-44%); margin-right: 10px !important  }
@@ -72,11 +68,11 @@
   .num:nth-child(5){position:absolute; left:56%; transform:translate(-56%);  margin-right: 10px }
  */
 
-  .num:nth-child(1){  margin-left: calc( 50% - 60px );   margin-right: 10px }
-  .num:nth-child(2){ margin-right: 10px}
-  .num:nth-child(3){  margin-right: 10px}
-  .num:nth-child(4){margin-right: 10px}
-  .num:nth-child(5){ margin-right: 10px}
+  .num:nth-child(1){  margin-left: calc( 50% - 40px );   margin-right: 1px }
+  .num:nth-child(2){ margin-right: 1px}
+  .num:nth-child(3){  margin-right: 1px}
+  .num:nth-child(4){margin-right: 1px}
+  .num:nth-child(5){ margin-right: 1px}
   #a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
   #a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
   #a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
