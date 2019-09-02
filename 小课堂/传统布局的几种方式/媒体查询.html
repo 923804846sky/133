@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="媒体查询.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div >修真院</div>
+    <script>
+                var html = document.querySelector("html");
+                html.style.fontSize = html.offsetWidth /7.5 + "px";
+                addEventListener("resize",function(){
+                    html.style.fontSize = html.offsetWidth / 7.5 + "px";
+                },false);
+            </script>
+
+</body>
+</html>

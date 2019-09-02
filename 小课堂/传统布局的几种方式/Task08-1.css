@@ -1,0 +1,635 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.service {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17vw;
+}
+
+@media screen and (max-width: 700px) {
+    .service {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+.number {
+    color: #29b078;
+    width: 172px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.connection {
+    width: 106px;
+    ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wechat {
+    width: 24px;
+    height: 24px;
+}
+
+.type {
+    background-color: #29b078;
+    height: 5.2vw;
+    position: relative;
+    z-index: 1;
+}
+
+.typeWrap {
+    position: absolute;
+    right: 5.2vw;
+}
+
+.homepageWrap {
+    float: left;
+}
+
+.nav-wrap {
+    padding: 0px;
+}
+
+.homePage {
+    width: 100px;
+    height: 97px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage {
+        width: 80px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .nav-item {
+        margin: 0 auto;
+    }
+
+    .line {
+        width: auto;
+        height: 2px;
+    }
+}
+
+.homepageWrap:hover>.line {
+    background-color: white;
+}
+
+.main {
+    background-color: #fafafa;
+}
+
+.main1 {
+    padding: 177px 15vw 0px 15vw;
+    background-color: #fafafa;
+}
+
+@media screen and (max-width: 700px) {
+    .main1 {
+        padding: 80px 15vw 0px 15vw;
+    }
+}
+
+.gaoxiao-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaoxiaotext {
+    color: #a1a1a1;
+}
+
+.gaoxiao-image {
+    height: 95px;
+}
+
+.gaoxiao,
+.guifan,
+.renmai {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.gaoxiao-wrap-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0.5px dashed #dedede;
+    justify-content: space-around;
+}
+
+.person-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 18px;
+    font-size: 15px;
+    color: #26a26f;
+}
+
+.online-person {
+    color: #999999;
+}
+
+@media screen and (max-width: 1300px) {
+    .gaoxiao-wrap {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gaoxiao-wrap {
+        margin-bottom: 80px;
+    }
+
+    .gaoxiao-wrap-right {
+        border-left: none;
+        margin-bottom: 60px;
+    }
+
+    .person-margin {
+        margin-bottom: 20px;
+    }
+}
+
+.main2 {
+    padding: 150px 15vw 0 15vw;
+    background-color: #fafafa;
+}
+
+@media screen and (max-width: 700px) {
+    .main2 {
+        padding: 100px 15vw 0 15vw;
+    }
+}
+
+.how-study {
+    margin-bottom: 2.8vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+    .how-study {
+        margin-bottom: 5vw;
+        text-align: center;
+    }
+}
+
+.study-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .study-wrap {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+}
+
+.circle {
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    border: 0.6px solid #efeeee;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 6px;
+    display: inline-block;
+    background-color: white;
+    color: #26a26f;
+}
+
+.describe {
+    margin-right: 8px;
+    color: #999999;
+    width: 154px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1300px) {
+    .arrow1 {
+        visibility: hidden;
+    }
+}
+
+.main3 {
+    padding: 70px 15vw 0px 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+}
+
+.main3 .container {
+    padding: 0px;
+}
+
+.student-show {
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.show-wrap>.container {
+    height: 371px;
+    border: 0.04vw solid rgb(210, 215, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .show-wrap>.container {
+        height: 371px;
+        border: 0.1vw solid rgb(210, 215, 216);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 3%;
+        padding: 0 15px;
+    }
+
+}
+
+.show-wrap>.container:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.person-image {
+    margin-top: 15px;
+}
+
+.person-describe {
+    margin: 36px 0 28px 0;
+    font-size: 18px;
+}
+
+.person-ablility {
+    font-size: 14px;
+    color: #999999;
+}
+
+.roll-color {
+    background-color: #fafafa;
+    margin-top: 21.5px;
+}
+
+@media screen and (max-width: 700px) {
+    .roll-color {
+        margin-top: 0px;
+    }
+}
+
+.roll {
+    width: 66px;
+    height: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.roll-1 {
+    width: 14px;
+    height: 14px;
+    border: 1.5px solid rgb(210, 215, 216);
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.roll-1:hover {
+    background-color: #29b078;
+}
+
+.main4 {
+    padding: 130px 15vw 0px 15vw;
+    background-color: #fafafa;
+}
+
+.enen {
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.image-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+
+.company-wrap {
+    width: 20%;
+    height: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.company-wrap:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .company-wrap {
+        width: 50%;
+        height: 178px;
+    }
+
+    .enen {
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .company-wrap {
+        width: 100%;
+        height: 178px;
+    }
+
+    .enen {
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+}
+
+.main5 {
+    background-color: #ffffff;
+    margin-top: 110px;
+    padding: 20px 15vw;
+}
+
+@media screen and (max-width: 700px) {
+    .main5 {
+        margin-top: 80px;
+    }
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 1.5vw;
+}
+
+.link-wrap {
+    margin-bottom: 1%;
+    display: flex;
+}
+
+.underline {
+    width: 20%;
+    font-size: 12.5px;
+    color: gray;
+}
+
+.underline:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #26a26f;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .link-wrap {
+        flex-wrap: wrap;
+        margin-left: 28%;
+        margin-bottom: 0;
+    }
+
+    .underline {
+        width: 50%;
+        margin-bottom: 3%;
+    }
+
+    .link {
+        margin-bottom: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .link-wrap {
+        margin: 0;
+        display: block;
+    }
+
+    .link-wrap-wrap {
+        margin-left: 46%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .link-wrap-wrap {
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .link-wrap-wrap {
+        margin-left: 43%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .link-wrap-wrap {
+        margin-left: 41%;
+    }
+}
+
+.footer1 {
+    border-top: 0.7px solid #32c086;
+    border-bottom: 0.7px solid #32c086;
+    background-color: #26a26f;
+    padding: 2vw 18vw;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 21.3vw;
+}
+
+.footer-left-top {
+    color: white;
+    white-space: nowrap;
+}
+
+.footer-left-bottom {
+    display: flex;
+}
+
+.footer-left-bottom-1 {
+    height: 14px;
+    color: white;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.footer-left-bottom-2 {
+    height: 14px;
+    color: white;
+    border-right: 1.6px solid white;
+    border-left: 1.6px solid white;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.footer-center {
+    height: 98px;
+    width: 21.3vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yun-wrap {
+    display: flex;
+}
+
+.yun {
+    height: 26px;
+    width: 92px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.qiang {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.ppt {
+    height: 26px;
+    width: 92px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.footer-right {
+    width: 21.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    text-align: right;
+}
+
+.wechat-footer {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer1 {
+        background-color: #26a26f;
+        padding: 2vw 18vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-left {
+        height: 98px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 7vw;
+    }
+
+    .footer-center {
+        height: 98px;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 7vw;
+    }
+
+    .footer-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        text-align: left;
+        margin-bottom: 7vw;
+    }
+}
+
+.footer2 {
+    height: 30px;
+    background-color: #26a26f;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer2 {
+        height: 20px;
+        background-color: #26a26f;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        white-space: nowrap;
+    }
+}

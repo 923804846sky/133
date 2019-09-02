@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.service {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17vw;
+}
+
+@media screen and (max-width: 700px) {
+    .service {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+.number {
+    color: #29b078;
+    width: 172px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.connection {
+    width: 106px;
+    ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wechat {
+    width: 24px;
+    height: 24px;
+}
+
+.type {
+    background-color: #29b078;
+    height: 5.2vw;
+    position: relative;
+    z-index: 1;
+}
+
+.typeWrap {
+    position: absolute;
+    right: 5.2vw;
+}
+
+.homepageWrap {
+    float: left;
+}
+
+.nav-wrap {
+    padding: 0px;
+}
+
+.homePage {
+    width: 100px;
+    height: 97px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage {
+        width: 80px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .nav-item {
+        margin: 0 auto;
+    }
+
+    .line {
+        width: auto;
+        height: 2px;
+    }
+}
+
+.homepageWrap:hover>.line {
+    background-color: white;
+}
+
+.main {
+    padding: 0 18.75vw;
+    background-color: #fafafa;
+    padding-bottom: 8%;
+}
+
+.main-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1 {
+    height: 80px;
+    line-height: 80px;
+}
+
+span {
+    color: #29b078;
+}
+
+.main-left {
+    width: 25%;
+    height: 573px;
+    text-align: center;
+    border: 0.6px solid #d0d6d9;
+    border-radius: 2%;
+    background-color: #ffffff;
+}
+
+.main-left-top {
+    height: 62px;
+    line-height: 62px;
+    border-bottom: 0.6px solid #e6e6e6;
+}
+
+.main-left-bottom {
+    height: 510px;
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.ali {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.ali-cicle {
+    height: 7.5px;
+    width: 7.5px;
+    border: 0.6px solid #ff640d;
+    border-radius: 50%;
+    margin-right: 6.3px;
+}
+
+.alibaba {
+    font-size: 12px;
+    color: #29b078;
+}
+
+.ali:hover>.ali-cicle {
+    background-color: #ff650e;
+}
+
+.ali:hover>.alibaba {
+    color: #ff650e;
+}
+
+.main-right {
+    width: 73%;
+    border: 0.6px solid #d0d6d9;
+    border-radius: 2%;
+    background-color: #ffffff;
+    padding-bottom: 58px;
+}
+
+.tudou1 {
+    padding: 25px 7% 30px 9.6%;
+    border-bottom: 0.6px solid #e6e6e6;
+    display: flex;
+}
+
+.tudou-img {
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+}
+
+.tudou-describe {
+    font-size: 13.5px;
+    color: #999999;
+}
+
+.tudou2 {
+    padding: 38px 8.6% 0 8.6%;
+    font-size: 13.5px;
+    color: #999999;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-left {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .main-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .tudou1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tudou-img {
+        margin-bottom: 6%;
+    }
+}
+
+.footer1 {
+    border-top: 0.7px solid #32c086;
+    border-bottom: 0.7px solid #32c086;
+    background-color: #26a26f;
+    padding: 2vw 18vw;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 21.3vw;
+}
+
+.footer-left-top {
+    color: white;
+    white-space: nowrap;
+}
+
+.footer-left-bottom {
+    display: flex;
+}
+
+.footer-left-bottom-1 {
+    height: 14px;
+    color: white;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.footer-left-bottom-2 {
+    height: 14px;
+    color: white;
+    border-right: 1.6px solid white;
+    border-left: 1.6px solid white;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.footer-center {
+    height: 98px;
+    width: 21.3vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yun-wrap {
+    display: flex;
+}
+
+.yun {
+    height: 26px;
+    width: 92px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.qiang {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.ppt {
+    height: 26px;
+    width: 92px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.footer-right {
+    width: 21.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    text-align: right;
+}
+
+.wechat-footer {
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer1 {
+        background-color: #26a26f;
+        padding: 2vw 18vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-left {
+        height: 98px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 7vw;
+    }
+
+    .footer-center {
+        height: 98px;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 7vw;
+    }
+
+    .footer-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        text-align: left;
+        margin-bottom: 7vw;
+    }
+}
+
+.footer2 {
+    height: 30px;
+    background-color: #26a26f;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer2 {
+        height: 20px;
+        background-color: #26a26f;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        white-space: nowrap;
+    }
+}
