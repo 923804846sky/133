@@ -1,0 +1,29 @@
+.a{
+     display: flex;
+     /* 主轴为水平方向，起点在右端。 */
+    /* flex-direction:row-reverse; */
+    /* //主轴为垂直方向，起点在上沿。// */
+    /* flex-direction:column; */
+     /* 主轴为垂直方向，起点在下沿。 */
+    /* flex-direction:column-reverse; */
+   /* 默认 */
+    /* flex-direction:row; */
+/* 默认值）：左对齐 */
+    /* justify-content:flex-start; */
+/* 右对齐 */
+    /* justify-content:flex-end; */
+/* 居中 */
+    /* justify-content:center; */
+/* 两端对齐，项目之间的间隔都相等。 */
+    /* justify-content:space-between; */
+/* ：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。 */
+    /* justify-content:space-around;  */
+
+}
+.b{
+    width: 100px;
+    height: 50px;
+    font-size: 40px;
+    color: #ffffff;
+    background-color: #29b078;
+}
