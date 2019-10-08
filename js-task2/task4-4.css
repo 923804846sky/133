@@ -1,0 +1,126 @@
+body {
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background-color: #29bde0;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 25px;
+  color: #ffffff;
+}
+
+.result {
+  text-align: center;
+  margin: 15px;
+}
+
+.slogan {
+  height: 80px;
+  width: 70%;
+  color: #ffc865;
+  margin: 0 auto;
+}
+
+.statistics {
+  margin-left: 15%;
+  height: 80px;
+  width: 65%;
+}
+
+.statistics-a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-b {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.process {
+  background-color: #ffffff;
+}
+
+.process-a {
+  height: 80px;
+  background-color: #ffffff;
+  border-top: 1px solid #e1e5e7;
+}
+
+.date {
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 65%;
+  height: 20px;
+}
+
+.date-l {
+  float: left;
+  width: 50px;
+}
+
+.date-r {
+  float: right;
+  width: 56px;
+  color: #a6a6a6;
+  font-size: 12px;
+  margin-right: -24px;
+}
+
+.date-t {
+  margin-left: 15%;
+  color: #a6a6a6;
+  font-size: 13px;
+}
+
+.date-b {
+  margin-left: 15%;
+  margin-bottom: 10px;
+  color: #a6a6a6;
+  font-size: 13px;
+}
+
+.end-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+}
+
+.end {
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  opacity: 0.5;
+  background-color: #99dff0;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 135px;
+  color: #ffffff;
+  background-color: #f66f6f;
+  border-radius: 5px;
+}
+
+.Button:hover {
+  background-color: #fbb435;
+}
