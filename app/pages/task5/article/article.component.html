@@ -1,0 +1,31 @@
+<nz-table #basicTable [nzData]="A">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>名称</th>
+        <th>类型</th>
+        <th>发布时间</th>
+        <th>修改时间</th>
+        <th>发布者</th>
+        <th>状态</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of A">
+        <td>{{ data.id }}</td>
+        <td>{{ data.title }}</td>
+        <td>{{ data.type | type}}</td>
+        <td>{{ data.createAt | date:'yyyy-MM-dd' }}</td>
+        <td>{{ data.updateAt | date:'yyyy-MM-dd' }}</td>
+        <td>{{ data.author }}</td>
+        <td>{{ data.status | status}}</td>
+        <td>
+          <a>Action 一 {{ data.name }}</a>
+          <nz-divider nzType="vertical"></nz-divider>
+          <a>Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
+  
