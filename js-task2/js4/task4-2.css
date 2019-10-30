@@ -114,6 +114,7 @@ main {
   cursor: pointer;
   height: 38px;
   width: 80%;
+  padding-right: 70px;
   outline: none;
   border: none;
   font-size: 15px;

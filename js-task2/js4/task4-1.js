@@ -7,10 +7,10 @@ for (let i = 0; i < arr.length; i++) {
     <div class="ID">${arr[i]}</div>
     <div class="digital"> ${i+1}</div>
     <div class="icon">
-        <div><img class="icon-a" src="9.png"></div>
-        <div><img class="icon-a" src="8.png"></div>
-        <div><img class="icon-a" src="7.png"></div>
-        <div><img class="icon-a" src="6.png"></div>
+        <div><img class="icon-a" src="../图片/9.png"></div>
+        <div><img class="icon-a" src="../图片/8.png"></div>
+        <div><img class="icon-a" src="../图片/7.png"></div>
+        <div><img class="icon-a" src="../图片/6.png"></div>
     </div>
 </div>
 `)}

@@ -128,6 +128,11 @@ $(".daynum").click(
         var m = $(this);
         m.siblings().toggle()
     });
+
+    if (days != 1) {
+        $(".daymain").hide();
+        $(".daymain").eq(days - 1).show();
+    }
     $(".footerlog").on("click", function () {
         window.location.href = "task4-5.html"
     })
